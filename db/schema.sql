@@ -2,6 +2,9 @@ DROP TABLE IF EXIST employee;
 DROP TABLE IF EXIST roles;
 DROP TABLE IF EXIST departments;
 
+USE tracker_db;
+USE employee_tracker_db;
+
 CREATE TABLE departments (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30) NOT NULL
